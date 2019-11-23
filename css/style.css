@@ -4,7 +4,7 @@ body, .container-fluid{
 	font-family: "Titillium Web";
 	text-align: center;
 }
-section{
+div.container{
 	width: 80%;
 	margin: auto;
 }
@@ -33,14 +33,14 @@ header{padding-bottom: 2%;}
 	border: 0px solid #643a79;
 	border-radius: 2px; 
 }
-header section{padding: 5%;}
-header section h2{
+header div.container{padding: 4% 0;}
+header div.container h2{
 	margin-bottom: 2.5rem;
 	color: white;
 	font-size: 1.9rem;
 	font-weight: bold;
 }
-header section button{
+header div.container button{
 	background-color: #eb7d4b !important;
 	border: none;
 	border-radius: 4px;
@@ -54,13 +54,13 @@ header section button{
 	font-size: 0.85rem;
 	cursor: pointer;
 }
-header section button:hover{
+header div.container button:hover{
 	background-color: #ea713a !important;
 	border-radius: 4px;
 	border-bottom: 5px solid #d6571d;
 	transition: 0.3s;
 }
-header section button:focus{outline: none;}
+header div.container button:focus{outline: none;}
 main .container-fluid, footer .container-fluid{padding: 5% 0;}
 main .container-fluid:first-child{
 	background-color: #17c2a4;
@@ -86,12 +86,12 @@ main .container-fluid:first-child .row .col-md-3:nth-child(2) img, main .contain
 	width: 30%;
 	margin-bottom: 2rem;
 }
-main section .row p{
+main div.container .row p{
 	width: 80%;
 	margin: 1rem 10% 0 10%;
 	font-size: 0.8rem;
 }
-main section .row h5{
+main div.container .row h5{
 	font-size: 1.2rem;
 	font-weight: bold;
 }
@@ -157,7 +157,7 @@ main .container-fluid:nth-child(4) .row p{
 	font-weight: 600;
 	text-transform: uppercase;
 }
-main .container-fluid:nth-child(4) section button{
+main .container-fluid:nth-child(4) div.container button{
 	background-color: #17c2a4;
 	border: none;
 	border-radius: 4px;
@@ -171,13 +171,13 @@ main .container-fluid:nth-child(4) section button{
 	font-size: 0.85rem;
 	cursor: pointer;
 }
-main .container-fluid:nth-child(4) section button:hover{
+main .container-fluid:nth-child(4) div.container button:hover{
 	background-color: #0fb195;
 	border-radius: 4px;
 	border-bottom: 5px solid #0f9c84;
 	transition: 0.3s;
 }
-main .container-fluid:nth-child(4) section button:focus{outline: none;}
+main .container-fluid:nth-child(4) div.container button:focus{outline: none;}
 main .container-fluid:nth-child(5){
 	background-color: #d74680;
 	color: white;
@@ -259,7 +259,7 @@ footer .container-fluid:nth-child(2){
 	padding: 2% 0;
 	text-align: initial;
 }
-footer .container-fluid:nth-child(2) section{padding-left: 6%;}
+footer .container-fluid:nth-child(2) div.container{padding-left: 6%;}
 footer .container-fluid:nth-child(2) a{
 	color: white;
 	text-decoration: none;
@@ -278,8 +278,8 @@ footer .container-fluid:nth-child(2) a:hover{
 		text-align: initial;
 		font-size: 0.7rem;
 	}
-	header section h2{font-size: 1.3rem;}
-	header section button{
+	header div.container h2{font-size: 1.3rem;}
+	header div.container button{
 		padding: 0.6rem 3rem;
 		font-size: 0.65rem;
 	}
@@ -301,12 +301,12 @@ footer .container-fluid:nth-child(2) a:hover{
 		width: 20%;
 		margin-bottom: 1.8rem;
 	}
-	main section .row p{
+	main div.container .row p{
 		width: 80%;
 		margin-top: auto;
 		font-size: 0.65rem;
 	}
-	main section .row h5{font-size: 0.9rem;}
+	main div.container .row h5{font-size: 0.9rem;}
 	main .container-fluid:nth-child(2) .row img{
 		width: 40%;
 		margin-bottom: 1.8rem;
@@ -347,7 +347,7 @@ footer .container-fluid:nth-child(2) a:hover{
 		width: 70%;
 		margin-bottom: 1.8rem;
 	}
-	main .container-fluid:nth-child(4) section button{
+	main .container-fluid:nth-child(4) div.container button{
 		padding: 0.8rem 1.6rem;
 		font-size: 0.65rem;
 	}
