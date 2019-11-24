@@ -365,6 +365,6 @@ footer .container-fluid:nth-child(2) a:hover{
 	}
 	footer .container-fluid:nth-child(2) a{
 		font-size: 0.75rem;
-		margin: 0;
+		margin: 0 1rem;
 	}
 }
